@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent">
+<EditText android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/txtDel"></EditText>
+ <TableRow>
+            <Button android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1" android:text="Delete By First Name" android:id="@+id/btnDelFirst"/>
+<Button android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:text="Delete By Last Name" android:id="@+id/btnDelLast"></Button>
+</TableRow>
+</TableLayout>
+</ScrollView>

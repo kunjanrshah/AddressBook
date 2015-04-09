@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:text="Welcome to Address Book" android:layout_height="70px" android:gravity="center"/>
+<LinearLayout android:id="@+id/LinearLayout01" android:orientation="vertical" android:layout_gravity="center" android:gravity="center" android:layout_height="fill_parent" android:layout_width="fill_parent"><Button android:layout_height="wrap_content" android:layout_gravity="center" android:text="Add New" android:id="@+id/btnAddNew" android:layout_width="100px"></Button>
+<Button android:layout_height="wrap_content" android:layout_gravity="center" android:text="Search" android:id="@+id/btnSearch" android:layout_width="100px"></Button><Button android:layout_height="wrap_content" android:layout_gravity="center" android:text="Browse" android:id="@+id/btnBrowse" android:layout_width="100px"></Button><Button android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/btnDelete" android:text="Delete" android:layout_width="100px"></Button>
+</LinearLayout>
+</LinearLayout>
